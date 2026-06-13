@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken');
 const User = require('../models/User');
-
+// export 
 exports.protect = async (req, res, next) => {
   let token;
   
